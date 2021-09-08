@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Amazon Interview Experience for System Analyst -on campus",
+      "body": "Lorem Ipsum has took aorem Ipsum has took aorem <br>Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took aorem Ipsum has took a",
+      "author": "pankaj",
+      "id": 1
+    },
+    {
+      "title": "Nvidia Interview Experience for System Software Engineer -on campus",
+      "body": "Round 1:\n\nWhy you want to switch\nWhat are interrupts discussion that only: https://www.youtube.com/watch?v=Wfau1WC5m4c\nWrite a program to find the minimum number out of three numbers without using comparison operators https://www.geeksforgeeks.org/smallest-of-three-integers-without-comparison-operators/\nRound 2:\n\nDifference between static and dynamic library\nWhat is a static function in C why it is used\nBasic programs to manipulate a particular bit set it to toggle it.\nProgram to find the number that occurs an odd number of times in an array where every other element occurs an even number of times {https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/}\nProgram to find min element in a sorted rotated array (he was expecting answer using binary search)https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/\nProgram to replicate a linked list having a randomized pointer pointing to other nodes randomly (without using extra space)https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/",
+      "author": "pankaj",
+      "id": 13
+    },
+    {
+      "title": "Samsung Interview Experience for  Software Engineer developer - offcampus",
+      "body": "Round 1:\n\n\nWhy you want to switch\nWhat are interrupts discussion that only: https://www.youtube.com/watch?v=Wfau1WC5m4c\nWrite a program to find the minimum number out of three numbers without using comparison operators \n\nhttps://www.geeksforgeeks.org/smallest-of-three-integers-without-comparison-operators/\n\nRound 2:\n\nDifference between static and dynamic library\nWhat is a static function in C why it is used\nBasic programs to manipulate a particular bit set it to toggle it.\n\nProgram to find the number that occurs an odd number of times in an array where every other element occurs an even number of times {https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/}\nProgram to find min element in a sorted rotated array (he was expecting answer using binary search)https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/\nProgram to replicate a linked list having a randomized pointer pointing to other nodes randomly (without using extra space)https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/",
+      "author": "Akash Gupta",
+      "id": 14
+    },
+    {
+      "title": "apple ",
+      "body": "qwwwwwbsdvc",
+      "author": "bfvbcf",
+      "id": 15
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Banner {
+    
+    width: 100%;
+    height: 560px;
+}
+/* .buttongrp {
+    color: aquamarine;
+    display: flex; */
+.au-Banner{   
+    width: 100%;
+    height: 560px;
+    
+}
+.au-Banner-tag {
+    margin: auto ;  
+ 
+}
+
+img{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card {
+    margin: auto;
+}
+.founder {
+    width:100%;
+    height: 480px;
+}
+.founder .founder-1{
+    height: 480px;
+}
+.hw {
+    color  : blue;
+}
+.content{
+    width: 100%;
+    height: 520px;
+}
+.height-full{
+    height:460px;
+}

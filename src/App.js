@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import { Header } from './Components/Header.js';
+import { BlogList } from './Components/BlogList.js';
+import { Footer } from './Components/Footer.js';
+import { AddNew } from './Components/AddNew.js';
+import { AU } from './Components/Aboutus.js';
+import { Main } from './Components/Main.js';
+import useFetch  from './Components/useFetch.js';
 
+import {
+
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import BlogDetails from './Components/BlogDetails.js';
 function App() {
+  const { data : blogs , isPending , error } = useFetch('http://localhost:8000/blogs');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Header />
+
+        <Switch>
+        <Route exact path="/">
+        <Main />
+        </Route>
+          <Route exact path="/BlogList">
+            {error && <div>{error}</div>}
+            {isPending && <div>Loading...</div>}
+            {blogs && <BlogList blogs={blogs} title="All Interview Experiences" />}
+          </Route>
+          <Route exact path= "/blogs/:id">
+            <BlogDetails/>
+          </Route>
+          <Route exact path="/AddNew">
+            <AddNew/>
+          </Route>
+          <Route exact path="/AU">
+            <AU/>
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
